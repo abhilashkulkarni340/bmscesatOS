@@ -1,0 +1,36 @@
+RTOS (REAL TIME OPERATING SYTEM)
+System requirements:
+Large enough in memory size and sufficient power supply
+300 bytes of RAM and 1-2kb of flash
+Microcontroller(ARM-CORTEX)
+Working:
+RTOS’s main difference from a normal OS is the priority algorithm to different tasks. Hybrid configuration is used to mage tasks.
+Aging to boost the priority of a task waiting for a long time. Algorithms used can be pre-emptive or round robin. Power saving to be implemented by tickless mode.
+Tasks can be classified as:
+Perdiodic tasks
+Periodic Update tasks
+Aperiodic tasks
+Modules to work on:
+Assigning priority to tasks.
+Scheduler task assignment.
+Handling interrupted tasks.
+Controlled power increase/decrease.
+Minimizing memory size.(dynamic allocation)
+Handling zombie processes.
+Error handling of any sort while priority assignment or task execution.  
+OS to use/develop:
+FreeRTOS.
+KubOS
+It is an open source platform for satellites. KubOS SDK is all s/w components used to create a KubOS project loaded on endpoint device and then interact with it.
+SYSTEM REQUIREMENTS
+64 bit processor with AMD-v or Intel VT-x virtualization.
+Recent linux distro
+8 GB RAM
+10 GB of free HDD space.
+Vagrant box
+WORKING
+Platform provides the developers tools and libraries to build space ready software.
+
+
+
+
