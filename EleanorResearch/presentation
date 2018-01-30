@@ -1,0 +1,15 @@
+UNDERSTANDING THE WORK APPORTIONMENT:
+OS
+•	Framework Design
+•	DL Engine
+•	Protocol Design
+System Framework Design
+Monolithic Kernel –Safe, Secure, Easy to debug
+Hardware Requirements – Large enough in memory size, sufficient power supply, 300 bytes of RAM, 1-2 KB of flash, microcontroller (ARM-CORTEX)
+KUBOS – 64 bit processor with AMD-V or Intel VT-X virtualization, Linux Distro (recent), 8GB RAM, 10GB of free HDD space, Vagrant Box
+Dande Nano Satellite – 
+•	Dande Satellite RTOS : 13 User Process for Mission Critical Task,10 Operational Modes,50 Busy Box Commands, System Diagnostics Logging Tools.
+•	Dande RTOS Process : Busmessenger and The Message Queue Handler, Datacollection, NMS Datacollection and Commanding, Data Processing, Processing and Subsystem Watchdogs ,Attitude Control, Mode Scheduling And COM-CDH.
+•	Hurdles of Dande RTOS Structure: Memory Leaks and Logging Implementation, Listing Command, Message Queue Concurrency, Un-Throttled infinite loops, The Zip Command.
+
+
